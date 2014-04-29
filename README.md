@@ -1,4 +1,4 @@
-Hi! My name is Louis, and here are some of the most interesting projects that I have worked on.
+Hi! My name is Louis. Here are some of the most interesting projects I have worked on.
 
 ###Natural Language Processing
 
