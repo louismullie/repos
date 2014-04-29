@@ -37,19 +37,12 @@ Homepage: https://github.com/louismullie/graph-rank
 
 GraphRank is a Ruby implementation of the TextRank algorithms. TextRank is an algorithm for unsupervised keyword extraction and document summarization that demonstrates how the PageRank algorithm can be applied to textual data.
 
-**TF*IDF on Elastic MapReduce**
-
-Homepage: https://github.com/louismullie/tf-idf-emr
-(Languages: Python)
-
-Python implementation of the TF*IDF algorithm on Amazon Elastic MapReduce, using MRJob. The TF*IDF algorithm is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.
-
 **Language generation with Markov chains**
 
 Homepage: https://github.com/louismullie/emcee
 (Languages: Ruby)
 
-This library takes rap lyrics as an input and generates new rap lyrics using Markov chains. A Markov chain is a process that consists of a finite number of states and some known probabilities pij, where pij is the probability of moving from state j to state i.
+This library takes rap lyrics as an input and generates new rap lyrics using Markov chains. A Markov chain models the behaviour of a random process where the next state of the process depends only on the current state, and not on the sequence of events that preceded it.
 
 ###Cryptography
 
@@ -94,7 +87,7 @@ A Javascript implementation of Reed-Solomon error correcting codes. Reed-Solmon 
 Homepage: https://github.com/cryodex/hom-js
 (Languages: Javascript)
 
- Javascript implementation of the Paillier cryptosystem, invented by Pascal Pailler in 1999. The Paillier cryptosystem is an additive homomorphic system, meaning that given only the public-key and the encryption of m1 and m2, one can compute the encryption of m1 + m2.
+ Javascript implementation of the Paillier cryptosystem, invented by Pascal Pailler in 1999. The Paillier cryptosystem is an additive homomorphic system, meaning that given the encryption of m1 and m2, one can compute the encryption of m1 + m2.
 
 ###Big Data
 
@@ -104,3 +97,10 @@ Homepage: https://github.com/louismullie/watershed-cuda
 (Languages: CUDA C, Python)
 
 A massively parallel implementation of the watershed transform, using MPI for distributing frames to a network of GPUs, and CUDA to perform the watershed transform directly inside the GPU.
+
+**TF*IDF on Amazon Elastic MapReduce**
+
+Homepage: https://github.com/louismullie/tf-idf-emr
+(Languages: Python)
+
+Python implementation of the TF*IDF algorithm on Amazon Elastic MapReduce, using MRJob. The TF*IDF algorithm is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.
