@@ -1,41 +1,41 @@
 Hi! My name is Louis, and here are some of the most interesting projects that I have worked on.
 
-###Natural language processing
+###Natural Language Processing
 
 **Treat**
 
 Homepage: https://github.com/louismullie/treat
 (Languages: C, Ruby)
 
-Treat is a toolkit for natural language processing and computational linguistics in Ruby. The Treat project aims to build a language- and algorithm- agnostic NLP framework for Ruby with support for tasks such as document retrieval, text chunking, segmentation and tokenization, natural language parsing, part-of-speech tagging, keyword extraction and named entity recognition.
+Treat is the leading Ruby toolkit for natural language processing and computational linguistics. The Treat project aims to build a feature-complete language- and algorithm- agnostic NLP framework for Ruby.
 
 **CoreNLP Ruby bindings**
 
 Homepage: https://github.com/louismullie/stanford-core-nlp
 (Languages: Java, Ruby)
 
-This gem provides high-level Ruby bindings to the Stanford Core NLP package, a set natural language processing tools for tokenization, sentence segmentation, part-of-speech tagging, lemmatization, and parsing of English, French and German. The package also provides named entity recognition and coreference resolution for English.
+This gem provides high-level Ruby bindings to the Stanford Core NLP package, a Java natural language processing toolkit. The bindings support tokenization, sentence segmentation, part-of-speech tagging, lemmatization, syntactical analysis, named entity recognition and coreference resolution.
 
 **OpenNLP Ruby bindings**
 
 Homepage: https://github.com/louismullie/open-nlp
 (Languages: Java, Ruby)
 
-This library provides high-level Ruby bindings to the Open NLP package, a Java machine learning toolkit for natural language processing (NLP). The bindings support tokenization, chunking and POS tagging for several languages, as well as maximum entropy named entity recognition.
+This library provides high-level Ruby bindings to the Open NLP package, a Java machine learning toolkit for natural language processing. The bindings support tokenization, sentence segmentation, part-of-speech tagging, and named entity recognition.
 
-**Sentence segmentation**
+**Sentence segmentation algorithm**
 
 Homepage: https://github.com/louismullie/scalpel
 (Languages: Ruby)
 
-Scalpel is a novel fast and accurate rule-based sentence segmentation algorithm for Latin languages. The idea behind the algorithm is that it is simpler and more efficient to find occurrences of periods that do not indicate the end of a sentence, rather than those that do.
+Scalpel is a novel rule-based sentence segmentation algorithm for Latin languages. It is fast and accurate, even on poorly formatted data. The key insight is that it is simpler and more efficient to find occurrences of periods that do not indicate the end of a sentence first, and subsequently attempt to segment the text.
 
 **TextRank implementation**
 
 Homepage: https://github.com/louismullie/graph-rank
 (Languages: Ruby)
 
-GraphRank is a Ruby implementation of the TextRank algorithms.  TextRank is an algorithm for unsupervised keyword extraction and document summarization that combines the PageRank algorithm with a distance function to apply it to texts.
+GraphRank is a Ruby implementation of the TextRank algorithms. TextRank is an algorithm for unsupervised keyword extraction and document summarization that demonstrates how the PageRank algorithm can be applied to textual data.
 
 **TF*IDF on Elastic MapReduce**
 
@@ -96,7 +96,7 @@ Homepage: https://github.com/cryodex/hom-js
 
  Javascript implementation of the Paillier cryptosystem, invented by Pascal Pailler in 1999. The Paillier cryptosystem is an additive homomorphic system, meaning that given only the public-key and the encryption of m1 and m2, one can compute the encryption of m1 + m2.
 
-###Big data
+###Big Data
 
 **Massively parallel watershed transform**
 
