@@ -89,6 +89,13 @@ Homepage: https://github.com/cryodex/hom-js
 
  Javascript implementation of the Paillier cryptosystem, invented by Pascal Pailler in 1999. The Paillier cryptosystem is an additive homomorphic system, meaning that given the encryption of m1 and m2, one can compute the encryption of m1 + m2.
 
+**Order-preserving symmetric encryption implementation**
+
+Homepage: https://github.com/cryodex/ope-rb
+(Languages: Ruby)
+
+Ruby implementation of the well-known order-preserving encryption scheme published by Boldyreva. Order-preserving encryption is a deterministic mode of encryption that encrypts numbers while preserving their order. 
+
 ###Big Data
 
 **Massively parallel watershed transform**
