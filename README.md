@@ -1,50 +1,6 @@
-Hi! My name is Louis. Here are some of the most interesting projects I have worked on.
+Hi! My name is Louis. Here are some of the projects I have worked on.
 
-### Natural Language Processing
-
-**Treat**
-
-Homepage: https://github.com/louismullie/treat
-(Languages: C, Ruby)
-
-Treat is the leading Ruby toolkit for natural language processing and computational linguistics. The Treat project aims to build a feature-complete language- and algorithm- agnostic NLP framework for Ruby.
-
-**CoreNLP Ruby bindings**
-
-Homepage: https://github.com/louismullie/stanford-core-nlp
-(Languages: Java, Ruby)
-
-This gem provides high-level Ruby bindings to the Stanford Core NLP package, a Java natural language processing toolkit. The bindings support tokenization, sentence segmentation, part-of-speech tagging, lemmatization, syntactical analysis, named entity recognition and coreference resolution.
-
-**OpenNLP Ruby bindings**
-
-Homepage: https://github.com/louismullie/open-nlp
-(Languages: Java, Ruby)
-
-This library provides high-level Ruby bindings to the Open NLP package, a Java machine learning toolkit for natural language processing. The bindings support tokenization, sentence segmentation, part-of-speech tagging, and named entity recognition.
-
-**Sentence segmentation algorithm**
-
-Homepage: https://github.com/louismullie/scalpel
-(Languages: Ruby)
-
-Scalpel is a novel rule-based sentence segmentation algorithm for Latin languages. It is fast and accurate, even on poorly formatted data. The key insight is that it is simpler and more efficient to find occurrences of periods that do not indicate the end of a sentence first, and subsequently attempt to segment the text.
-
-**TextRank implementation**
-
-Homepage: https://github.com/louismullie/graph-rank
-(Languages: Ruby)
-
-GraphRank is a Ruby implementation of the TextRank algorithms. TextRank is an algorithm for unsupervised keyword extraction and document summarization that demonstrates how the PageRank algorithm can be applied to textual data.
-
-**Language generation with Markov chains**
-
-Homepage: https://github.com/louismullie/emcee
-(Languages: Ruby)
-
-This library takes rap lyrics as an input and generates new rap lyrics using Markov chains. A Markov chain models the behaviour of a random process where the next state of the process depends only on the current state, and not on the sequence of events that preceded it.
-
-###Cryptography
+### Cryptography
 
 **Secure remote protocol implementation (RFC 5054)**
 
@@ -96,7 +52,52 @@ Homepage: https://github.com/cryodex/ope-rb
 
 Ruby implementation of the well-known order-preserving encryption scheme published by Boldyreva. Order-preserving encryption is a deterministic mode of encryption that encrypts numbers while preserving their order. 
 
-###Big Data
+### Natural Language Processing
+
+**Treat**
+
+Homepage: https://github.com/louismullie/treat
+(Languages: C, Ruby)
+
+Treat is the leading Ruby toolkit for natural language processing and computational linguistics. The Treat project aims to build a feature-complete language- and algorithm- agnostic NLP framework for Ruby.
+
+**CoreNLP Ruby bindings**
+
+Homepage: https://github.com/louismullie/stanford-core-nlp
+(Languages: Java, Ruby)
+
+This gem provides high-level Ruby bindings to the Stanford Core NLP package, a Java natural language processing toolkit. The bindings support tokenization, sentence segmentation, part-of-speech tagging, lemmatization, syntactical analysis, named entity recognition and coreference resolution.
+
+**OpenNLP Ruby bindings**
+
+Homepage: https://github.com/louismullie/open-nlp
+(Languages: Java, Ruby)
+
+This library provides high-level Ruby bindings to the Open NLP package, a Java machine learning toolkit for natural language processing. The bindings support tokenization, sentence segmentation, part-of-speech tagging, and named entity recognition.
+
+**Sentence segmentation algorithm**
+
+Homepage: https://github.com/louismullie/scalpel
+(Languages: Ruby)
+
+Scalpel is a novel rule-based sentence segmentation algorithm for Latin languages. It is fast and accurate, even on poorly formatted data. The key insight is that it is simpler and more efficient to find occurrences of periods that do not indicate the end of a sentence first, and subsequently attempt to segment the text.
+
+**TextRank implementation**
+
+Homepage: https://github.com/louismullie/graph-rank
+(Languages: Ruby)
+
+GraphRank is a Ruby implementation of the TextRank algorithms. TextRank is an algorithm for unsupervised keyword extraction and document summarization that demonstrates how the PageRank algorithm can be applied to textual data.
+
+**Language generation with Markov chains**
+
+Homepage: https://github.com/louismullie/emcee
+(Languages: Ruby)
+
+This library takes rap lyrics as an input and generates new rap lyrics using Markov chains. A Markov chain models the behaviour of a random process where the next state of the process depends only on the current state, and not on the sequence of events that preceded it.
+
+
+### Big Data
 
 **Massively parallel watershed transform**
 
